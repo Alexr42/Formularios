@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    
+    <head>
+      <meta charset="utf-8">
+      <title>Entrepenes</title>
+    </head>
+
+    <head>
+      <h1 id="Header">Bienveido al club Viejuner</h1>
+    </head>
+
+    <body>
+      <fieldset>
+       <legend>
+        <h2>Comienza tu registro</h2>
+       </legend>
+        <section>
+          <h3>Sobre tí:</h3>
+          <label for="nombre">Nombre:</label>
+          <br>
+          <input type="text" id="nombre" name="nombre" placeholder="Fernando" autofocus tabindex="0">
+          <br> <br>
+          <label for="apellidos">Apellidos:</label>
+          <br>
+          <input type="text" id="apellidos" name="apellidos" placeholder="Martínez" tabindex="0">
+          <br> <br>
+          <label for="edad">Edad:</label>
+          <br>
+          <input type="number" id="edad" placeholder="50" tabindex="0">
+          <br> <br>
+          <label for="sexo">Sexo:</label>
+          <br>
+          <input type="radio" id="hombre" name="sexo" value="hombre" tabindex="0">
+          <label for="hombre">Hombre</label>
+          <br>
+          <input type="radio" id="mujer" name="sexo" value="mujer">
+          <label for="mujer">Mujer</label>
+          <br>
+          <input type="radio" id="otro" name="sexo" value="otro">
+          <label for="otro">Otro</label>
+          <br> <br>
+          <label for="sentimiento">Me siento Viejuner</label>
+          <input type="checkbox" name="sentimiento" id="sentimiento" tabindex="0">
+          <br> <br>
+          <label for="mensaje">Escribe algo sobre tí:</label>
+          <br>
+          <textarea id="mensaje" name="mensaje" cols="30" rows="5" placeholder="Cuentanos más"></textarea>
+        </section>
+        <section>
+         <h4>Tus circunstancias:</h4>
+          <label for="correo">Correo electrónico:</label>
+          <br>
+          <input type="email" name="correo" id="correo" placeholder="usuario@dominio.com" size="64" maxlength="64"  tabindex="0">
+          <br> <br>
+          <label for="teléfono">Teléfono:</label>
+          <br>
+          <input type="tel" name="teléfono" id="teléfono" placeholder="123456789" size="9" maxlength="9" minlength="9" tabindex="0">
+          <br> <br>
+          <label for="reset">Borrar:</label>
+          <input type="reset" id="reset">
+          <label for="submit">Enviar:</label>
+          <input type="submit">
+        </section>
+      </fieldset>
+    </body>
+
+  </html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+ <html lang="en" dir="ltr">
+
+ <head>
+    <title>Robos</title>
+ </head>
+
+ <head>
+    <h1>Los ladronzuelos de bicicletas</h1>
+ </head>
+
+ <body>
+    <fieldset>
+      <legend>
+        <h2>Formulario</h2>
+      </legend>
+        <section>
+         <h3>Incidencia</h3>
+          <label for="día">Día:</label>
+          <br>
+          <input type="date" name="día" id="Día" autofocus tabindex="0">
+          <br> <br>
+          <label for="hora">Hora:</label>
+          <br>
+          <input type="time" name="hora" id="hora">
+          <br> <br>
+          <label for="color">Color de la bicicleta:</label>
+          <br>
+          <input type="color" name="color" id="color">
+          <br><br>
+          <label for="precio">Rango de precio:</label>
+          <br>
+          <span>0</span>
+          <input type="range" name="precio" id="precio" value="10" min="0" max="10000">
+          <span>10.000</span>
+          <br> <br>
+          <label for="tipo">Tipo de bicicleta:</label>
+          <br>
+          <select name="tipo" id="tipo">
+            <optgroup label="Paseo">
+                <option value="señorial">Señorial</option>
+                <option value="anti-plebeyos">Anti-plebeyos</option>
+                <option value="porencimadelhombro">PorEncimaDelHombro</option>
+            </optgroup>
+
+            <optgroup label="Montaña">
+                <option value="gamusinos">Gamusinos</option>
+                <option value="hueleflores premium">Hueleflores premium</option>
+                <option value="fango lover">Fango lover</option>
+            </optgroup>
+
+            <optgroup label="Carreras">
+                <option value="metroymedio">Metroymedio</option>
+                <option value="3 de la tarde. fluorescente edition">3 de la tarde. Fluorescente edition</option>
+                <option value="grupitors">Grupitors</option>
+            </optgroup>
+          </select>
+          <br><br>
+          <label for="accesorios">Accesorios:</label>
+          <br>
+          <select name="accesorios" id="accesorios" multiple>
+            <option value="ruedines">Ruedines</option>
+            <option value="pegatinas">Pegatinas</option>
+            <option value="cestita">Cestita</option>
+            <option value="bomba de aire">Bomba de aire</option>
+            <option value="timbre">Timbre</option>
+            <option value="foco">Foco</option>
+          </select>
+          <br><br>
+          <section>
+            <label for="marca">¿Qué marca era?:</label>
+            <br>
+            <input type="text" list="marcas" name="marca" id="marca" placeholder="trek" tabindex="0">
+            
+            <datalist id="marcas">
+                <option value="specialized"></option>
+                <option value="trek"></option>
+                <option value="merida"></option>
+                <option value="scott"></option>
+                <option value="giant"></option>
+                <option value="cube"></option>
+                <option value="lapierre"></option>
+                <option value="orbea"></option>
+                <option value="cannondale"></option>
+                <option value="bmc"></option>
+                <option value="canyon"></option>
+                <option value="look"></option>
+                <option value="protek"></option>
+                <option value="megamo"></option>
+                <option value="pinarello"></option>
+                <option value="bianchi"></option>
+                <option value="bh"></option>
+                <option value="factor"></option>
+                <option value="ghost"></option>
+                <option value="cervélo"></option>
+                <option value="argon"></option>
+            </datalist>
+          </section>
+          <br><br>
+          <label for="borrar">Borrar:</label>
+          <input type="reset" name="borrar" id="borrar">
+          <label for="enviar">Enviar:</label>
+          <input type="submit" name="enviar" id="enviar">
+          
+        </section>
+    </fieldset>
+ </body>
